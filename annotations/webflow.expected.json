@@ -1,0 +1,91 @@
+{
+  "product": "Webflow",
+  "url": "https://webflow.com/pricing",
+  "plans": [
+    {
+      "name": "Starter",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Static pages",
+          "value": "2"
+        },
+        {
+          "label": "Bandwidth",
+          "value": "1 GB"
+        },
+        {
+          "label": "Form submissions",
+          "value": "50"
+        }
+      ]
+    },
+    {
+      "name": "Basic",
+      "prices": [
+        {
+          "amount": 15,
+          "currency": "USD",
+          "period": "month",
+          "unit": "flat",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Static pages",
+          "value": "300"
+        },
+        {
+          "label": "Bandwidth",
+          "value": "10 GB"
+        },
+        {
+          "label": "Form submissions",
+          "value": "Unlimited"
+        }
+      ]
+    },
+    {
+      "name": "Premium",
+      "prices": [
+        {
+          "amount": 25,
+          "currency": "USD",
+          "period": "month",
+          "unit": "flat",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Bandwidth",
+          "value": "50 GB"
+        }
+      ]
+    },
+    {
+      "name": "Team",
+      "prices": [
+        {
+          "amount": 2500,
+          "currency": "USD",
+          "period": "month",
+          "unit": "flat",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

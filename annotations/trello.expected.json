@@ -1,0 +1,90 @@
+{
+  "product": "Trello",
+  "url": "https://trello.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Collaborators per Workspace",
+          "value": "10"
+        },
+        {
+          "label": "Boards per Workspace",
+          "value": "10"
+        },
+        {
+          "label": "Workspace command runs per month",
+          "value": "250"
+        }
+      ]
+    },
+    {
+      "name": "Standard",
+      "prices": [
+        {
+          "amount": 5,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 6,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Boards",
+          "value": "Unlimited"
+        },
+        {
+          "label": "Workspace command runs per month",
+          "value": "1,000"
+        }
+      ]
+    },
+    {
+      "name": "Premium",
+      "prices": [
+        {
+          "amount": 10,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 12.5,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Enterprise",
+      "prices": [
+        {
+          "amount": 17.5,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

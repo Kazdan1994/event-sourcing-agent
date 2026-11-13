@@ -1,0 +1,61 @@
+{
+  "product": "Pipedrive",
+  "plans": [
+    {
+      "name": "Lite",
+      "prices": [
+        {
+          "amount": 14,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Growth",
+      "prices": [
+        {
+          "amount": 39,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Premium",
+      "prices": [
+        {
+          "amount": 59,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Ultimate",
+      "prices": [
+        {
+          "amount": 79,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

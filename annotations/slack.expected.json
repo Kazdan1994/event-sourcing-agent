@@ -1,0 +1,79 @@
+{
+  "product": "Slack",
+  "url": "https://slack.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Message history",
+          "value": "90 days"
+        },
+        {
+          "label": "Apps",
+          "value": "Up to 10"
+        }
+      ]
+    },
+    {
+      "name": "Pro",
+      "prices": [
+        {
+          "amount": 8.25,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        },
+        {
+          "amount": 6.75,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "External organizations",
+          "value": "up to 250"
+        }
+      ]
+    },
+    {
+      "name": "Business+",
+      "prices": [
+        {
+          "amount": 18,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        },
+        {
+          "amount": 15,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "External organizations",
+          "value": "up to 250"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise+",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

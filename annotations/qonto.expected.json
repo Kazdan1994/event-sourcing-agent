@@ -1,0 +1,63 @@
+{
+  "product": "Qonto",
+  "url": "https://qonto.com/pricing",
+  "plans": [
+    {
+      "name": "Basic",
+      "prices": [
+        {
+          "amount": 9,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "flat",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Transfers",
+          "value": "30/month"
+        }
+      ]
+    },
+    {
+      "name": "Smart",
+      "prices": [
+        {
+          "amount": 19,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "flat",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Transfers",
+          "value": "100/month"
+        }
+      ]
+    },
+    {
+      "name": "Premium",
+      "prices": [
+        {
+          "amount": 39,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "flat",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Transfers",
+          "value": "200/month"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "product": "GitHub",
+  "url": "https://github.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "CI/CD minutes/month",
+          "value": "2,000"
+        },
+        {
+          "label": "Packages storage",
+          "value": "500MB"
+        }
+      ]
+    },
+    {
+      "name": "Team",
+      "prices": [
+        {
+          "amount": 4,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "CI/CD minutes/month",
+          "value": "3,000"
+        },
+        {
+          "label": "Packages storage",
+          "value": "2GB"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "prices": [
+        {
+          "amount": 21,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "CI/CD minutes/month",
+          "value": "50,000"
+        },
+        {
+          "label": "Packages storage",
+          "value": "50GB"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "product": "Supabase",
+  "url": "https://supabase.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Monthly active users",
+          "value": "50,000"
+        },
+        {
+          "label": "Database size",
+          "value": "500 MB (with Shared CPU and 500 MB RAM)"
+        },
+        {
+          "label": "Active projects",
+          "value": "2"
+        },
+        {
+          "label": "File storage",
+          "value": "1 GB"
+        }
+      ]
+    },
+    {
+      "name": "Pro",
+      "prices": [
+        {
+          "amount": 25,
+          "currency": "USD",
+          "period": "month",
+          "unit": "flat",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Monthly active users",
+          "value": "100,000"
+        },
+        {
+          "label": "File storage",
+          "value": "8 GB disk size per project"
+        }
+      ]
+    },
+    {
+      "name": "Team",
+      "prices": [
+        {
+          "amount": 599,
+          "currency": "USD",
+          "period": "month",
+          "unit": "flat",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

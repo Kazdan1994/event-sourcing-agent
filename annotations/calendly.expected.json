@@ -1,0 +1,94 @@
+{
+  "product": "Calendly",
+  "url": "https://calendly.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Event types",
+          "value": "1"
+        },
+        {
+          "label": "Calendar connections",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "Standard",
+      "prices": [
+        {
+          "amount": 10,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Recordings & transcripts",
+          "value": "Not included"
+        },
+        {
+          "label": "Shareable meeting recaps",
+          "value": "Not included"
+        },
+        {
+          "label": "Joins Zoom, Google Meet, Microsoft Teams",
+          "value": "Not included"
+        },
+        {
+          "label": "An AI assistant that schedules over email",
+          "value": "Not included"
+        },
+        {
+          "label": "Ask Callie (AI assistant) interactive chat",
+          "value": "Not included"
+        }
+      ]
+    },
+    {
+      "name": "Teams",
+      "prices": [
+        {
+          "amount": 16,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Advanced admin controls",
+          "value": "Not included"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "prices": [
+        {
+          "amount": 15000,
+          "currency": "USD",
+          "period": "year",
+          "unit": "flat",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Minimum seats",
+          "value": "50"
+        }
+      ]
+    }
+  ]
+}

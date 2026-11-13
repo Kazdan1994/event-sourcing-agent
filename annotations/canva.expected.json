@@ -1,0 +1,82 @@
+{
+  "product": "Canva",
+  "url": "https://www.canva.com/en/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Brand Kits",
+          "value": "1"
+        },
+        {
+          "label": "Cloud storage",
+          "value": "5GB"
+        }
+      ]
+    },
+    {
+      "name": "Pro",
+      "prices": [
+        {
+          "amount": 110,
+          "currency": "EUR",
+          "period": "year",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Brand Kits",
+          "value": "5"
+        },
+        {
+          "label": "Cloud storage",
+          "value": "100GB"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "prices": [
+        {
+          "amount": 170,
+          "currency": "EUR",
+          "period": "year",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Brand Kits",
+          "value": "100"
+        },
+        {
+          "label": "Cloud storage",
+          "value": "500GB"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Brand Kits",
+          "value": "1000"
+        },
+        {
+          "label": "Cloud storage",
+          "value": "1TB"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "product": "Zendesk",
+  "url": "https://www.zendesk.com/pricing",
+  "plans": [
+    {
+      "name": "Support Team",
+      "prices": [
+        {
+          "amount": 19,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 25,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Suite Team",
+      "prices": [
+        {
+          "amount": 55,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 69,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Suite Professional",
+      "prices": [
+        {
+          "amount": 115,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 149,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

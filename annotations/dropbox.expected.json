@@ -1,0 +1,100 @@
+{
+  "product": "Dropbox",
+  "url": "https://www.dropbox.com/en/plans",
+  "plans": [
+    {
+      "name": "Plus",
+      "prices": [
+        {
+          "amount": 9.99,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "flat",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Users",
+          "value": "1"
+        },
+        {
+          "label": "Storage",
+          "value": "2 TB"
+        },
+        {
+          "label": "File restore",
+          "value": "30 days"
+        }
+      ]
+    },
+    {
+      "name": "Standard",
+      "prices": [
+        {
+          "amount": 12,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Storage",
+          "value": "Starts at 3 TB for the team"
+        },
+        {
+          "label": "File restore",
+          "value": "180 days"
+        }
+      ]
+    },
+    {
+      "name": "Advanced",
+      "prices": [
+        {
+          "amount": 18,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Users",
+          "value": "3 or more"
+        },
+        {
+          "label": "Storage",
+          "value": "Starts at 15 TB for the team"
+        },
+        {
+          "label": "File restore",
+          "value": "1 year"
+        }
+      ]
+    },
+    {
+      "name": "Basic",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Storage",
+          "value": "2 GB"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

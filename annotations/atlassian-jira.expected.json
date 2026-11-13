@@ -1,0 +1,154 @@
+{
+  "product": "Jira",
+  "url": "https://www.atlassian.com/en/software/jira/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Users",
+          "value": "Up to 10"
+        },
+        {
+          "label": "Automation steps per subscription per month",
+          "value": "150"
+        },
+        {
+          "label": "Storage",
+          "value": "2 GB"
+        },
+        {
+          "label": "Supports",
+          "value": "Only Atlassian community"
+        },
+        {
+          "label": "Number of sites",
+          "value": "1"
+        },
+        {
+          "label": "Emails per day",
+          "value": "100"
+        },
+        {
+          "label": "Dependency management",
+          "value": "Single Project"
+        }
+      ]
+    },
+    {
+      "name": "Standard",
+      "prices": [
+        {
+          "amount": 8.48,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Automation steps per user per month",
+          "value": "400"
+        },
+        {
+          "label": "Storage",
+          "value": "250 GB"
+        },
+        {
+          "label": "Users per site",
+          "value": "Up to 100,000"
+        },
+        {
+          "label": "9/5 regional support",
+          "value": "2-hr response time for critical issues from Cloud support team"
+        },
+        {
+          "label": "Rovo credits",
+          "value": "25 per user per month"
+        },
+        {
+          "label": "Indexed objects",
+          "value": "100 per user"
+        },
+        {
+          "label": "Number of sites",
+          "value": "1"
+        },
+        {
+          "label": "Dependency management",
+          "value": "Single Project"
+        },
+        {
+          "label": "Assets objects per month",
+          "value": "1,000"
+        }
+      ]
+    },
+    {
+      "name": "Premium",
+      "prices": [
+        {
+          "amount": 15.56,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Automation steps per user per month",
+          "value": "750"
+        },
+        {
+          "label": "Rovo credits",
+          "value": "70 per user per month"
+        },
+        {
+          "label": "Indexed objects",
+          "value": "250 per user"
+        },
+        {
+          "label": "Number of sites",
+          "value": "1"
+        },
+        {
+          "label": "Assets objects per month",
+          "value": "1,000"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Automation steps per user per month",
+          "value": "1,000"
+        },
+        {
+          "label": "Number of sites",
+          "value": "Up to 150"
+        },
+        {
+          "label": "Rovo credits",
+          "value": "150 per user per month"
+        },
+        {
+          "label": "Indexed objects",
+          "value": "625 per user"
+        },
+        {
+          "label": "Assets objects per month",
+          "value": "1,000"
+        }
+      ]
+    }
+  ]
+}

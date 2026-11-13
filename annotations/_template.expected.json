@@ -1,0 +1,36 @@
+{
+  "product": "Product name",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": []
+    },
+    {
+      "name": "Pro",
+      "prices": [
+        {
+          "amount": 10,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Projects",
+          "value": "Unlimited"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

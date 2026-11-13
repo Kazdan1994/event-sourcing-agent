@@ -1,0 +1,53 @@
+{
+  "product": "Notion",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [
+        {
+          "amount": 0,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": true,
+      "limits": []
+    },
+    {
+      "name": "Plus",
+      "prices": [
+        {
+          "amount": 9.5,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Business",
+      "prices": [
+        {
+          "amount": 19.5,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

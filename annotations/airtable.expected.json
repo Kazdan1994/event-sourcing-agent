@@ -1,0 +1,132 @@
+{
+  "product": "Airtable",
+  "url": "https://airtable.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "AI credits per editor per month",
+          "value": "500"
+        },
+        {
+          "label": "Records per base",
+          "value": "1,000"
+        },
+        {
+          "label": "Editors",
+          "value": "Up to 5"
+        },
+        {
+          "label": "Attachments per base",
+          "value": "1 GB"
+        },
+        {
+          "label": "Automation runs",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "name": "Team",
+      "prices": [
+        {
+          "amount": 20,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 24,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI credits per paid user each month",
+          "value": "15,000"
+        },
+        {
+          "label": "Records per base",
+          "value": "50,000"
+        },
+        {
+          "label": "Automation runs",
+          "value": "25,000"
+        },
+        {
+          "label": "Attachments per base",
+          "value": "20 GB"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "prices": [
+        {
+          "amount": 45,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 54,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI credits per paid user each month",
+          "value": "20,000"
+        },
+        {
+          "label": "Records per base",
+          "value": "125,000"
+        },
+        {
+          "label": "Automation runs",
+          "value": "100,000"
+        },
+        {
+          "label": "Attachments per base",
+          "value": "100 GB"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise Scale",
+      "prices": [],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI credits per paid user each month",
+          "value": "25,000"
+        },
+        {
+          "label": "Records per base",
+          "value": "500,000"
+        },
+        {
+          "label": "Automation runs",
+          "value": "500,000"
+        },
+        {
+          "label": "Attachments per base",
+          "value": "1,000 GB"
+        }
+      ]
+    }
+  ]
+}

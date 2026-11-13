@@ -1,0 +1,60 @@
+{
+  "product": "Linear",
+  "url": "https://linear.app/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Teams",
+          "value": "2"
+        },
+        {
+          "label": "Issues",
+          "value": "250"
+        }
+      ]
+    },
+    {
+      "name": "Basic",
+      "prices": [
+        {
+          "amount": 10,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Teams",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "prices": [
+        {
+          "amount": 16,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

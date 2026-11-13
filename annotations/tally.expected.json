@@ -1,0 +1,34 @@
+{
+  "product": "Tally",
+  "url": "https://tally.so/pricing",
+  "plans": [
+    {
+      "name": "Pro",
+      "prices": [
+        {
+          "amount": 20,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "flat",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Business",
+      "prices": [
+        {
+          "amount": 65,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "flat",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

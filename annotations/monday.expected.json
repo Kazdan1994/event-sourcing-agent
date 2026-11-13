@@ -1,0 +1,124 @@
+{
+  "product": "monday.com",
+  "url": "https://monday.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Seats",
+          "value": "Up to 2"
+        },
+        {
+          "label": "Boards",
+          "value": "Up to 3"
+        },
+        {
+          "label": "Docs",
+          "value": "Up to 3"
+        }
+      ]
+    },
+    {
+      "name": "Basic",
+      "prices": [
+        {
+          "amount": 9,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 12,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI tools",
+          "value": "3"
+        },
+        {
+          "label": "AI credits",
+          "value": "1,000 / month"
+        }
+      ]
+    },
+    {
+      "name": "Standard",
+      "prices": [
+        {
+          "amount": 12,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 14,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI tools",
+          "value": "5"
+        },
+        {
+          "label": "AI credits",
+          "value": "2,000 / month"
+        },
+        {
+          "label": "Automations",
+          "value": "250 actions / month"
+        },
+        {
+          "label": "Integrations",
+          "value": "250 actions / month"
+        },
+        {
+          "label": "API calls",
+          "value": "1,000 per day"
+        }
+      ]
+    },
+    {
+      "name": "Pro",
+      "prices": [
+        {
+          "amount": 19,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        },
+        {
+          "amount": 24,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "monthly"
+        }
+      ],
+      "isFree": false,
+      "limits": []
+    },
+    {
+      "name": "Enterprise",
+      "prices": [],
+      "isFree": false,
+      "limits": []
+    }
+  ]
+}

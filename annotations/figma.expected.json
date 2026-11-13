@@ -1,0 +1,74 @@
+{
+  "product": "Figma",
+  "url": "https://www.figma.com/pricing",
+  "plans": [
+    {
+      "name": "Starter",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "AI credits",
+          "value": "150/day, up to 500/mo"
+        }
+      ]
+    },
+    {
+      "name": "Professional",
+      "prices": [
+        {
+          "amount": 16,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI credits",
+          "value": "3,000/mo"
+        }
+      ]
+    },
+    {
+      "name": "Organization",
+      "prices": [
+        {
+          "amount": 55,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI credits",
+          "value": "3,500/mo"
+        }
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "prices": [
+        {
+          "amount": 90,
+          "currency": "EUR",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "AI credits",
+          "value": "4,250/mo"
+        }
+      ]
+    }
+  ]
+}

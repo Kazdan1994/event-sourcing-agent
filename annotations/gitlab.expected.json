@@ -1,0 +1,55 @@
+{
+  "product": "GitLab",
+  "url": "https://about.gitlab.com/pricing",
+  "plans": [
+    {
+      "name": "Free",
+      "prices": [],
+      "isFree": true,
+      "limits": [
+        {
+          "label": "Users per top-level group",
+          "value": "5"
+        },
+        {
+          "label": "Compute minutes per month",
+          "value": "400"
+        },
+        {
+          "label": "Storage",
+          "value": "10 GiB"
+        }
+      ]
+    },
+    {
+      "name": "Premium",
+      "prices": [
+        {
+          "amount": 29,
+          "currency": "USD",
+          "period": "month",
+          "unit": "user",
+          "billing": "annual"
+        }
+      ],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Compute minutes per month",
+          "value": "10,000"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate",
+      "prices": [],
+      "isFree": false,
+      "limits": [
+        {
+          "label": "Compute minutes per month",
+          "value": "50,000"
+        }
+      ]
+    }
+  ]
+}
